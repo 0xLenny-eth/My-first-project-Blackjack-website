@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Blackjack</h1>
+    <div class="bigdiv">
+        <div class="leftdiv">
+            <h2>Rules</h2>
+            <h3>The objective of the game is to get 21 by adding the values of your cards <br> <br> If you the sum of
+                your two first cards is below 21, draw one more cards <br> <br> If the sum of your cards is above 21,
+                you
+                lose the game <br> <br> To start a new game, click on <br> "START GAME" <br><br> To draw one more card,
+                click on <br> "NEW
+                CARD" <br> <br> Use the website on a computer in full screen to have the best experience <br><br> (PS: the money is not real😆) <br><br><br> Enjoy^^</h3>
+        </div>
+        <div class="game">
+            <p id="message-el">Want to play a round?</p>
+            <p id="cards-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+            <button id="start-btn" onclick="startGame()">START GAME</button>
+            <p></p>
+            <button id="newcard-btn" onclick="newCard()">NEW CARD</button>
+            <p id="player-el"></p>
+            <p id="message2-el"></p>
+            <p id="credit-el">Developed by Lemnnyscate</p>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>

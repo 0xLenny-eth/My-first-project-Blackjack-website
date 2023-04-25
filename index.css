@@ -1,0 +1,128 @@
+/* sans rien devant -> div */
+/* # devant -> id */
+/* . devant -> classe */
+
+@font-face {
+    font-family: 'blackjackregular';
+    src: url('font/blackjar-webfont.woff2') format('woff2'),
+        url('font/blackjar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/03/25/38/41/360_F_325384191_sg1D5lYWfRedGQsBm8xIHnsSAUUUVxGE.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 100px;
+    font-family: 'blackjackregular', Arial, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+.game p {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 300px;
+    background: goldenrod;
+    font-size: 25px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:active {
+    background-color: rgb(187, 123, 4);
+    transition: 0.2s;
+}
+
+
+th {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+td {
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.leftdiv p {
+    color: white;
+}
+
+.leftdiv {
+    align-self: flex-start;
+    border-radius: 15px;
+    border: solid white;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 300px;
+    width: 350px;
+}
+
+.game {
+    flex-grow: 2;
+    margin-right: 765px;
+}
+
+.bigdiv {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+}
+
+
+#message-el {
+    font-style: italic;
+}
+
+#newcard-btn {
+    margin-top: -10px;
+}
+
+
+#credit-el {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    margin-top: 50%;
+}
+
